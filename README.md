@@ -12,6 +12,5 @@
 
 1. Menjalankan aplikasi web server yang sudah diinstall disini menggunakan aplikasi XAMPP, dan akses folder direktory yang sudah dibuat pada direktory web server <br>
 Berikut hasilnya :<br>
-<br>
 
 ![gambar 1](picture/1.PNG) <br>
