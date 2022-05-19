@@ -35,4 +35,18 @@ Berikut hasilnya :<br>
 <br>
 
 Kemudian untuk mengakses hasilnya melalui URL: *http://localhost:8080/Lab7Web/lab7_php_dasar/php_dasar.php*<br>
-![gambar 1](picture/2.PNG) <br>
+![gambar 2](picture/2.PNG) <br>
+
+Menambahkan variable pada program<br>
+```
+    <h2>Menggunakan Variable</h2>
+    <?php
+    $nim = "312010231";
+    $nama = 'Farizal';
+    echo "NIM : " . $nim . "<br>";
+    echo "Nama : $nama";
+    ?>
+```
+Berikut hasilnya :<br>
+
+![gambar 3](picture/3.PNG) <br>

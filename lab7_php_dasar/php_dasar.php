@@ -9,5 +9,12 @@
     <?php
         echo "Hello World";
     ?>
+    <h2>Menggunakan Variable</h2>
+    <?php
+    $nim = "312010231";
+    $nama = 'Farizal';
+    echo "NIM : " . $nim . "<br>";
+    echo "Nama : $nama";
+    ?>
 </body>
 </html>
