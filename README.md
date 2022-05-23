@@ -60,3 +60,28 @@ Predefine Variable $_GET<br>
 Untuk mengaksesnya gunakan url : http://localhost:8080/Lab7Web/lab7_php_dasar/latihan2.php?nama=Farizal dan Berikut hasilnya :<br>
 
 ![gambar 4](picture/4.PNG) <br>
+
+Membuat Form Input<br>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Input</title>
+</head>
+<body>
+<h2>Form Input</h2>
+<form method="POST">
+    <label>Nama : </label>
+    <input type="text" name="nama">
+    <input type="submit" value="Kirim">
+</form>
+    <?php
+        echo 'Selamat Datang ' . $_POST['nama'];
+    ?>
+</body>
+</html>
+```
+Berikut hasilnya :<br>
+
+![gambar 5](picture/5.PNG) <br>
