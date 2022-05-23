@@ -120,3 +120,68 @@ Berikut hasilnya :<br>
 Berikut hasilnya :<br>
 
 ![gambar 7](picture/7.PNG) <br>
+
+**Kondisi Switch**<br>
+```
+<h2>Kondisi Switch</h2>
+
+<?php
+    $nama_hari = date("l");
+    switch ($nama_hari) {
+        case "Sunday":
+            echo "Hari Minggu";
+            break;
+        case "Monday":
+            echo "Hari Senin";
+            break;
+        case "Tuesday":
+            echo "Hari Selasa";
+            break;
+        default:
+            echo "Hari Sabtu";
+        }
+?>
+```
+Berikut hasilnya :<br>
+
+![gambar 8](picture/8.PNG) <br>
+
+**Perulangan For**<br>
+```
+<h2>Perulangan FOR</h2>
+
+<?php
+    echo "Perulangan 1 sampai 10 <br />";
+
+    for ($i=1; $i<=10; $i++) {
+        echo "Perulangan ke: " . $i . '<br />';
+    }
+    
+    echo "<hr>";
+    echo "Perulangan Menurun dari 10 ke 1 <br />";
+    for ($i=10; $i>=1; $i--) {
+        echo "Perulangan ke: " . $i . '<br />';
+    }
+?>
+```
+Berikut hasilnya :<br>
+
+![gambar 9](picture/9.PNG) <br>
+
+**Perulangan While**<br>
+```
+<h2>Perulangan While</h2>
+
+<?php
+    echo "Perulangan 1 sampai 10 <br />";
+
+    $i=1;
+        while ($i<=10) {
+            echo "Perulangan ke: " . $i . '<br />';
+            $i++;
+        }
+?>
+```
+Berikut hasilnya :<br>
+
+![gambar 10](picture/10.PNG) <br>
