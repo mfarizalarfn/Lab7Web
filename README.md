@@ -37,7 +37,7 @@ Berikut hasilnya :<br>
 Kemudian untuk mengakses hasilnya melalui URL: *http://localhost:8080/Lab7Web/lab7_php_dasar/php_dasar.php*<br>
 ![gambar 2](picture/2.PNG) <br>
 
-*Menambahkan variable pada program*<br>
+**Menambahkan variable pada program**<br>
 ```
     <h2>Menggunakan Variable</h2>
     <?php
@@ -51,7 +51,7 @@ Berikut hasilnya :<br>
 
 ![gambar 3](picture/3.PNG) <br>
 
-*Predefine Variable $_GET*<br>
+**Predefine Variable $_GET**<br>
 ```
     <?php
         echo 'Selamat Datang ' . $_GET['nama'];
@@ -61,7 +61,7 @@ Untuk mengaksesnya gunakan url : http://localhost:8080/Lab7Web/lab7_php_dasar/la
 
 ![gambar 4](picture/4.PNG) <br>
 
-*Membuat Form Input*<br>
+**Membuat Form Input**<br>
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -86,7 +86,7 @@ Berikut hasilnya :<br>
 
 ![gambar 5](picture/5.PNG) <br>
 
-*Operator PHP*<br>
+**Operator PHP**<br>
 ```
 <?php
     $gaji = 1000000;
@@ -97,9 +97,11 @@ Berikut hasilnya :<br>
     echo "Gaji yang dibawa pulang = Rp. $thp";
 ?>
 ```
+Berikut hasilnya :<br>
+
 ![gambar 6](picture/6.PNG) <br>
 
-*Kondisi IF*<br>
+**Kondisi IF**<br>
 ```
 <h2>Kondisi IF</h2>
 
@@ -115,4 +117,6 @@ Berikut hasilnya :<br>
     }
 ?>
 ```
+Berikut hasilnya :<br>
+
 ![gambar 7](picture/7.PNG) <br>
