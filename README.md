@@ -41,12 +41,22 @@ Menambahkan variable pada program<br>
 ```
     <h2>Menggunakan Variable</h2>
     <?php
-    $nim = "312010231";
-    $nama = 'Farizal';
-    echo "NIM : " . $nim . "<br>";
-    echo "Nama : $nama";
+        $nim = "312010231";
+        $nama = 'Farizal';
+        echo "NIM : " . $nim . "<br>";
+        echo "Nama : $nama";
     ?>
 ```
 Berikut hasilnya :<br>
 
 ![gambar 3](picture/3.PNG) <br>
+
+Predefine Variable $_GET<br>
+```
+    <?php
+        echo 'Selamat Datang ' . $_GET['nama'];
+    ?>
+```
+Untuk mengaksesnya gunakan url : http://localhost:8080/Lab7Web/lab7_php_dasar/latihan2.php?nama=Farizal dan Berikut hasilnya :<br>
+
+![gambar 4](picture/4.PNG) <br>
