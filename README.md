@@ -185,3 +185,21 @@ Berikut hasilnya :<br>
 Berikut hasilnya :<br>
 
 ![gambar 10](picture/10.PNG) <br>
+
+**Perulangan Do While**<br>
+```
+<h2>Perulangan Dowhile</h2>
+
+<?php
+    echo "Perulangan 1 sampai 10 <br />";
+
+    $i=1;
+        do {
+            echo "Perulangan ke: " . $i . '<br />';
+            $i++;
+        } while ($i<=10);
+?>
+```
+Berikut hasilnya :<br>
+
+![gambar 11](picture/11.PNG) <br>
