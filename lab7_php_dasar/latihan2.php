@@ -8,7 +8,7 @@
     <h1>Predefine PHP Variable</h1>
 
     <?php
-    echo "Selamat Datang ".$_GET['nama'];
+        echo "Selamat Datang ".$_GET['nama'];
     ?>
 </body>
 </html>
